@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+status: none
+source:
+- https://www.sonichealthcare.com/llms.txt (HTTP 404, browser UA, 2026-10-22)
+- https://www.sonichealthcare.com/.well-known/mcp.json (HTTP 403, 2026-10-22)
+- https://www.sonichealthcare.com/.well-known/mcp/server-card.json (HTTP 403, 2026-10-22)
+- preflight dossier 2026-10-22 contract_discovery.verdict.mcp = absent on sonichealthcare.com, www., investors., support., api.
+- 'web search "Sonic Healthcare MCP server OR developer API OR llms.txt" (2026-10-22): no Sonic Healthcare MCP server, developer portal or API found'
+auth: unknown
+tools: []
+notes: Sonic Healthcare publishes no MCP server, no public developer portal and no OpenAPI contract, so no candidate tool list can be derived. The two .well-known paths returned 403 to a non-browser UA while the homepage serves 200 to a browser UA; nothing machine-readable was found behind them.
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched

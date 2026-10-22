@@ -1,0 +1,8 @@
+name: Sonic Healthcare rate limits
+generated: '2026-10-22'
+method: none
+source: https://www.sonichealthcare.com/
+limit_count: 0
+limits: []
+note: No public API or API documentation was found on Sonic Healthcare's hosts (www.sonichealthcare.com, investors.sonichealthcare.com,
+  support.sonichealthcare.com, api.sonichealthcare.com discovery paths checked 2026-10-22), so no rate limits are published.

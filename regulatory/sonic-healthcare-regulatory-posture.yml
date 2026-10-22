@@ -1,0 +1,112 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+signals:
+  data_subject_request:
+    url: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+    section: Access to, and correction of, your personal information
+    note: Sonic states a right of access and a right to request amendment of personal information, exercised through
+      its Privacy Officer after identity verification; complaints may be escalated to the OAIC. The policy describes
+      access and correction under the Australian Privacy Act; it does not describe deletion or portability rights.
+    evidence:
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: You have the right to request access to the personal information about you that we hold.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: To protect your privacy, we will need you to verify your identity before providing access to your information.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: You have the right to request an amendment to the information we hold, if you believe it to be inaccurate.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If you wish to request changes to your personal information held by us, you can contact our Privacy
+        Officer (see below), who can give you more detailed information about our correction procedure.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we cannot satisfactorily resolve your concern or complaint, you may wish to contact the Office of
+        the Australian Information Commissioner (OAIC).
+  data_residency:
+    url: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+    section: Cross-border disclosures
+    note: 'Not a residency commitment: the policy states personal information may be stored, accessed or used outside
+      Australia by related entities or third parties, and names likely recipient countries.'
+    evidence:
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We may enter into arrangements with other related entities or third parties outside Australia to store,
+        access or use data we collect, including personal information, in order to provide services to us (such
+        as data processing, analysis, interpretation or the performance of specialised tests).
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: In such cases, we will take reasonable steps to ensure that the third parties do not breach the Australian
+        Privacy Principles (APPs), including by requiring that the third party has information security measures
+        and information handling practices in place that are of an acceptable standard and approved by us.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: The countries in which the recipients are likely to be located include, but are not limited to, those
+        countries where the Sonic group operates (New Zealand, USA, UK, Germany, Switzerland, Belgium and Poland).
+  ai_transparency:
+    url: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+    section: Use of artificial intelligence (AI) technologies
+    note: Discloses use of AI systems (decision support, data analysis, internal chatbots) on personal information,
+      a human-oversight commitment for significant automated decisions, a ban on inputting personal data into public
+      AI systems, and notice plus human fallback for AI chatbot collection.
+    evidence:
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We may use AI systems (including decision support tools, data analysis systems and internal chatbots)
+        to process, generate or infer personal information.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We do not use AI systems to make fully automated decisions about individuals that may have significant
+        legal or personal effects without appropriate human oversight.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We do not input any personal or sensitive data into publicly accessible AI systems.
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we collect information via an AI chatbot or automated tool, we will tell you and give you the option
+        to withhold sensitive information or to seek human assistance.
+  data_retention:
+    url: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+    section: Retention
+    note: Retention is governed by health-record laws and accreditation standards; no specific retention periods
+      are stated. Information is destroyed or de-identified once no longer needed or required.
+    evidence:
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: When we no longer need your personal information for the purposes described in the Policy, and we are
+        no longer required to retain it under relevant accreditation standards or law, we will destroy or permanently
+        de-identify it.
+  incident_notification:
+    url: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+    section: Notification
+    note: A commitment to notify affected individuals promptly of unauthorised access or disclosure carrying a likely
+      risk of serious harm (the Notifiable Data Breaches threshold language). No notification time window is stated.
+    evidence:
+    - source: https://www.sonichealthcare.com/privacy-and-security/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we become aware that unauthorised access or disclosure of your information has occurred and there
+        is a likely risk of serious harm associated with that unauthorised access or disclosure, we will notify
+        you promptly and provide you with a recommended course of action where necessary.
+notes: Only the group privacy policy was readable. The dossier recorded https://www.sonichealthcare.com/privacy-policy/
+  as 403 to its probe; fetch-url.py read it with a plain GET (200) after a redirect to /privacy-and-security/privacy-policy/.
+  Sonic Healthcare is a diagnostics group, not an API provider. Its policy lists categories of third-party service
+  providers (accounting, IT, printing and so on) but publishes no named subprocessor list, so no subprocessors signal
+  is recorded.

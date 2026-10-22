@@ -1,0 +1,12 @@
+name: Sonic Healthcare pricing
+generated: '2026-10-22'
+method: none
+source: https://www.sonichealthcare.com/
+audience: unclear
+pricing_basis: none
+published: false
+plan_count: 0
+plans: []
+note: Sonic Healthcare publishes no developer portal, API, or API/platform pricing on its own hosts (www.sonichealthcare.com,
+  investors.sonichealthcare.com, support.sonichealthcare.com probed 2026-10-22; no contracts found). Its business is pathology,
+  radiology and primary care services; no plans page exists to record.

@@ -1,0 +1,20 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/sonic-healthcare/integrations
+- https://n8n.io/integrations/sonic-healthcare/
+- https://composio.dev/toolkits/sonic-healthcare
+- https://monid.ai/tools/sonic-healthcare
+checked:
+- https://zapier.com/apps/sonic-healthcare/integrations
+- https://n8n.io/integrations/sonic-healthcare/
+- https://www.make.com/en/integrations/sonic-healthcare
+- https://www.sonichealthcare.com/
+- https://composio.dev/toolkits/sonic-healthcare
+- https://monid.ai/tools/sonic-healthcare
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: No marketplace listing found (Zapier 404, n8n 404, Make 403 bot wall), no integrations/partners page on the
+  provider's own site, and no contract held in the catalog to read integrations from.

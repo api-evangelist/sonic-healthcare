@@ -1,0 +1,9 @@
+# Sonic Healthcare Pty Ltd - reporting security vulnerabilities to Sonic Healthcare
+# Please report any security vulnerabilities to us via the contact method(s) below, only after reading our disclosure policy.
+# Please do not include any sensitive information in your initial message. We will provide a secure communication method in our reply to you.
+ 
+Contact: https://bugcrowd.com/engagements/sonic-vdp-pro
+Policy: https://www.sonichealthcare.com/privacy-and-security/vulnerability-disclosure-policy/
+Acknowledgments: https://bugcrowd.com/engagements/sonic-vdp-pro/hall_of_fames
+Preferred-Languages: en
+Expires: 2034-05-13T13:37:00Z
